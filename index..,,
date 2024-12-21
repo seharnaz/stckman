@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Brand Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            text-align: center;
+            color: #444;
+        }
+        .brand-section {
+            margin-bottom: 20px;
+        }
+        .brand-section h2 {
+            color: #007b5e;
+            margin-bottom: 10px;
+        }
+        .brand-section p {
+            line-height: 1.6;
+        }
+        .note {
+            font-size: 0.9em;
+            color: #888;
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Coffee Brands Overview</h1>
+        
+        <div class="brand-section">
+            <h2>Gloria Jean's Coffees</h2>
+            <p><strong>Original Ownership:</strong> Founded in the United States by Gloria Jean Kvetko in 1979.</p>
+            <p><strong>Expansion:</strong> In 1996, an Australian company acquired the rights to operate the brand outside of the USA. It is now particularly popular in Australia and several other countries.</p>
+            <p><strong>Pakistan Operations:</strong> Operated by a local franchise with no connection to Israeli ownership.</p>
+        </div>
+        
+        <div class="brand-section">
+            <h2>Elite Coffee (Strauss Group)</h2>
+            <p>One of the most famous coffee brands in Israel, offering a variety of products including instant coffee, Turkish coffee, and espresso blends. Known for its bold flavor and affordability.</p>
+        </div>
+        
+        <div class="brand-section">
+            <h2>Nespresso (Israeli Connection)</h2>
+            <p>While Nespresso is a Swiss brand owned by Nestlé, its coffee capsules and machines are very popular in Israel. Israeli startups like <em>Sodastream</em> often complement Nespresso's style for local consumers.</p>
+        </div>
+        
+        <div class="brand-section">
+            <h2>Café Joe</h2>
+            <p>A premium Israeli coffee brand that offers rich blends and single-origin coffee. Also provides Nespresso-compatible capsules and whole bean coffee. Great for those who enjoy espresso-style coffee.</p>
+        </div>
+        
+        <div class="brand-section">
+            <h2>Aroma Espresso Bar</h2>
+            <p>A popular Israeli coffee chain that also sells its coffee beans and blends for home use. Known for its high-quality, freshly roasted beans and Middle Eastern-style coffee offerings.</p>
+        </div>
+        
+        <p class="note">Note: Some of these brands may be available online or through international retailers if you're outside of Israel.</p>
+    </div>
+</body>
+</html>
